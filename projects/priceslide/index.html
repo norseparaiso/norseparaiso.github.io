@@ -147,7 +147,7 @@
 							</div>
 							<div class="col-12 col-lg-4 mb-3">
 								<div class="testimonial text-center h-100">
-									<a href="#" class="play-video" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://player.vimeo.com/video/709498755?dnt=1&app_id=122963&autoplay=1&loop=0&controls=1&muted=0">
+									<a href="#" class="play-video vertical-video" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="https://player.vimeo.com/video/709498755?dnt=1&app_id=122963&autoplay=1&loop=0&controls=1&muted=0">
 										<img src="images/homepage/dave-mead.jpg" alt="Dave Mead" draggable="false" loading="lazy" width="170" height="170">
 										<i class="fa-solid fa-play"></i>
 									</a>
@@ -187,7 +187,7 @@
 									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 										<i class="fa-solid fa-xmark"></i>
 									</button>
-									<div class="aspect-ratio" style="padding-top: 56.20%">
+									<div class="aspect-ratio">
 									</div>
 								</div>
 							</div>
@@ -388,7 +388,13 @@
 			$(".play-video").click(function(e){
 				e.preventDefault();
 				var vidUrl = $(this).attr("data-video");
-				$("#videoModal .aspect-ratio").append('<iframe src="'+vidUrl+'" width="831" height="467" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>');
+				if($(this).is(".vertical-video")){
+					$("#videoModal .modal-dialog").addClass("vertical");
+					$("#videoModal .aspect-ratio").addClass("vertical").append('<iframe src="'+vidUrl+'" width="320" height="570" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>');
+				}else{
+					$("#videoModal .modal-dialog").removeClass("vertical");
+					$("#videoModal .aspect-ratio").removeClass("vertical").append('<iframe src="'+vidUrl+'" width="831" height="467" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>');
+				}
 			});
 			document.getElementById('videoModal').addEventListener('hidden.bs.modal',function(event){
 				$("#videoModal").find("iframe").remove();
