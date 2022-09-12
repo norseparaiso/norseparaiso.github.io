@@ -1,0 +1,67 @@
+✔ Header @done (9/11/2022, 10:28:19 PM)
+    ✔ Logo @done (9/9/2022, 10:40:42 PM)
+    ✔ Main Menu @done (9/9/2022, 10:40:51 PM)
+    ✔ Mobile Layout @done (9/11/2022, 1:25:00 AM)
+✔ Footer @done (9/11/2022, 10:28:11 PM)
+    ✔ Footer Menu @done (9/11/2022, 1:25:03 AM)
+    ✔ Mobile Layout @done (9/11/2022, 1:25:05 AM)
+✔ Homepage @done (9/12/2022, 7:23:05 PM)
+    ✔ Hero banner/Carousel @done (9/11/2022, 11:15:43 AM)
+    ✔ Check Availability @done (9/12/2022, 7:23:03 PM)
+        ✔ Datepicker @done (9/12/2022, 7:23:00 PM)
+        ✔ Time & Duration dropdown @done (9/11/2022, 7:00:11 PM)
+        ✔ Guests counter @done (9/12/2022, 6:20:42 PM)
+    ✔ Featured Rooms Section @done (9/11/2022, 10:28:00 PM)
+    ✔ Full-width banner @done (9/12/2022, 1:40:28 PM)
+    ✔ Gallery @done (9/12/2022, 5:47:06 PM)
+    ✔ Mobile Layout @done (9/12/2022, 6:34:32 PM)
+
+
+-------
+
+ICONS REF:
+    <svg class="icon">
+        <use xlink:href="#arrow-left"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#arrow-right"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#calendar"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#chevron-down"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#chevron-left"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#chevron-right"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#clock"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#close"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#facebook"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#instagram"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#menu"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#minus"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#plus"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#twitter"></use>
+    </svg>
+    <svg class="icon">
+        <use xlink:href="#users"></use>
+    </svg>

@@ -1,0 +1,163 @@
+
+  <!doctype>
+  <html lang="en">
+  <head>
+    <title>SVG Sprite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <style>
+      html { box-sizing: border-box }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",
+          "Oxygen","Ubuntu","Cantarell","Fira Sans",
+          "Droid Sans","Helvetical Neue",sans-serif;
+        font-size: 1.125rem;
+        text-align: center;
+        background: #ccc;
+      }
+      h1{
+        font-weight: 100;
+        margin-bottom: 1em
+      }
+      small { font-size: .34em }
+      .icon { 
+  width: 50px; 
+  height: 50px;
+  margin: .5em;
+}
+    </style>
+  </head>
+    
+  <body>
+    <!-- SVG Sprite -->
+    <svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 16" id="arrow-left">
+    <g clip-path="url(#clip0_40_858)">
+      <path d="M23.0399 8.41522H1.91992" stroke="#3F444D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M8.58367 14.955L1.91309 8.41523L8.58367 1.87543" stroke="#3F444D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_40_858">
+        <rect width="25" height="16" fill="white"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" id="arrow-right">
+    <g clip-path="url(#clip0_40_861)">
+      <path d="M1 8L23 8" stroke="#3F444D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M16 1L23 8L16 15" stroke="#3F444D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_40_861">
+        <rect width="24" height="16" fill="white"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="calendar">
+    <path d="M14.25 3H3.75C2.92157 3 2.25 3.67157 2.25 4.5V15C2.25 15.8284 2.92157 16.5 3.75 16.5H14.25C15.0784 16.5 15.75 15.8284 15.75 15V4.5C15.75 3.67157 15.0784 3 14.25 3Z" stroke="#34C6F5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M2.25 7.5H15.75" stroke="#34C6F5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 1.5V4.5" stroke="#34C6F5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 1.5V4.5" stroke="#34C6F5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 7" id="chevron-down">
+    <g clip-path="url(#clip0_139_1923)">
+      <path d="M1 1L6 6L11 1" stroke="#0093C2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_139_1923">
+        <rect width="12" height="6" fill="white" transform="translate(0 0.5)"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 11" id="chevron-left">
+    <path d="M5.5 10.5L0.5 5.5L5.5 0.5" stroke="#3F444D" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 11" id="chevron-right">
+    <path d="M0.5 10.5L5.5 5.5L0.5 0.5" stroke="#3F444D" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="clock">
+    <path d="M9 16.5C13.1421 16.5 16.5 13.1421 16.5 9C16.5 4.85786 13.1421 1.5 9 1.5C4.85786 1.5 1.5 4.85786 1.5 9C1.5 13.1421 4.85786 16.5 9 16.5Z" stroke="#34C6F5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9 4.5V9L12 10.5" stroke="#34C6F5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="close">
+    <g clip-path="url(#clip0_143_2558)">
+      <path d="M13 1L1 13" stroke="#3F444D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M1 1L13 13" stroke="#3F444D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_143_2558">
+        <rect width="14" height="14" fill="white"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="facebook">
+    <path d="M16 8C16 3.6 12.4 0 8 0C3.6 0 0 3.6 0 8C0 12 2.9 15.3 6.7 15.9V10.3H4.7V8H6.7V6.2C6.7 4.2 7.9 3.1 9.7 3.1C10.6 3.1 11.5 3.3 11.5 3.3V5.3H10.5C9.5 5.3 9.2 5.9 9.2 6.5V8H11.4L11 10.3H9.1V16C13.1 15.4 16 12 16 8Z" fill="white"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="instagram">
+    <path d="M8 1.44578C10.1205 1.44578 10.4096 1.44578 11.2771 1.44578C12.0482 1.44578 12.4337 1.63855 12.7229 1.73494C13.1084 1.92771 13.3976 2.0241 13.6867 2.31325C13.9759 2.60241 14.1687 2.89157 14.2651 3.27711C14.3614 3.56627 14.4578 3.95181 14.5542 4.72289C14.5542 5.59036 14.5542 5.78313 14.5542 8C14.5542 10.2169 14.5542 10.4096 14.5542 11.2771C14.5542 12.0482 14.3614 12.4337 14.2651 12.7229C14.0723 13.1084 13.9759 13.3976 13.6867 13.6867C13.3976 13.9759 13.1084 14.1687 12.7229 14.2651C12.4337 14.3614 12.0482 14.4578 11.2771 14.5542C10.4096 14.5542 10.2169 14.5542 8 14.5542C5.78313 14.5542 5.59036 14.5542 4.72289 14.5542C3.95181 14.5542 3.56627 14.3614 3.27711 14.2651C2.89157 14.0723 2.60241 13.9759 2.31325 13.6867C2.0241 13.3976 1.83133 13.1084 1.73494 12.7229C1.63855 12.4337 1.54217 12.0482 1.44578 11.2771C1.44578 10.4096 1.44578 10.2169 1.44578 8C1.44578 5.78313 1.44578 5.59036 1.44578 4.72289C1.44578 3.95181 1.63855 3.56627 1.73494 3.27711C1.92771 2.89157 2.0241 2.60241 2.31325 2.31325C2.60241 2.0241 2.89157 1.83133 3.27711 1.73494C3.56627 1.63855 3.95181 1.54217 4.72289 1.44578C5.59036 1.44578 5.87952 1.44578 8 1.44578ZM8 0C5.78313 0 5.59036 0 4.72289 0C3.85542 0 3.27711 0.192772 2.79518 0.385543C2.31325 0.578314 1.83133 0.867471 1.3494 1.3494C0.867471 1.83133 0.674699 2.21687 0.385543 2.79518C0.192772 3.27711 0.0963856 3.85542 0 4.72289C0 5.59036 0 5.87952 0 8C0 10.2169 0 10.4096 0 11.2771C0 12.1446 0.192772 12.7229 0.385543 13.2048C0.578314 13.6867 0.867471 14.1687 1.3494 14.6506C1.83133 15.1325 2.21687 15.3253 2.79518 15.6145C3.27711 15.8072 3.85542 15.9036 4.72289 16C5.59036 16 5.87952 16 8 16C10.1205 16 10.4096 16 11.2771 16C12.1446 16 12.7229 15.8072 13.2048 15.6145C13.6867 15.4217 14.1687 15.1325 14.6506 14.6506C15.1325 14.1687 15.3253 13.7831 15.6145 13.2048C15.8072 12.7229 15.9036 12.1446 16 11.2771C16 10.4096 16 10.1205 16 8C16 5.87952 16 5.59036 16 4.72289C16 3.85542 15.8072 3.27711 15.6145 2.79518C15.4217 2.31325 15.1325 1.83133 14.6506 1.3494C14.1687 0.867471 13.7831 0.674699 13.2048 0.385543C12.7229 0.192772 12.1446 0.0963856 11.2771 0C10.4096 0 10.2169 0 8 0Z" fill="white"></path>
+    <path d="M8 3.85542C5.68675 3.85542 3.85542 5.68675 3.85542 8C3.85542 10.3133 5.68675 12.1446 8 12.1446C10.3133 12.1446 12.1446 10.3133 12.1446 8C12.1446 5.68675 10.3133 3.85542 8 3.85542ZM8 10.6988C6.55422 10.6988 5.30121 9.54217 5.30121 8C5.30121 6.55422 6.45783 5.30121 8 5.30121C9.44578 5.30121 10.6988 6.45783 10.6988 8C10.6988 9.44578 9.44578 10.6988 8 10.6988Z" fill="white"></path>
+    <path d="M12.241 4.72289C12.7733 4.72289 13.2048 4.29136 13.2048 3.75904C13.2048 3.22671 12.7733 2.79518 12.241 2.79518C11.7086 2.79518 11.2771 3.22671 11.2771 3.75904C11.2771 4.29136 11.7086 4.72289 12.241 4.72289Z" fill="white"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 16" id="menu">
+    <path d="M3 8C3 7.17157 3.67157 6.5 4.5 6.5H25.5C26.3284 6.5 27 7.17157 27 8C27 8.82843 26.3284 9.5 25.5 9.5H4.5C3.67157 9.5 3 8.82843 3 8Z" fill="#3F444D"></path>
+    <rect x="3" y="0.5" width="24" height="3" rx="1.5" fill="#3F444D"></rect>
+    <rect x="3" y="12.5" width="24" height="3" rx="1.5" fill="#3F444D"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="minus">
+    <path d="M3.75 9H14.25" stroke="#3F444D" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="plus">
+    <path d="M9 3.75V14.25" stroke="#34C6F5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M3.75 9H14.25" stroke="#34C6F5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 13" id="twitter">
+    <path d="M16 1.5C15.4 1.8 14.8 1.9 14.1 2C14.8 1.6 15.3 1 15.5 0.2C14.9 0.6 14.2 0.8 13.4 1C12.8 0.4 11.9 0 11 0C8.9 0 7.3 2 7.8 4C5.1 3.9 2.7 2.6 1 0.6C0.1 2.1 0.6 4 2 5C1.5 5 1 4.8 0.5 4.6C0.5 6.1 1.6 7.5 3.1 7.9C2.6 8 2.1 8.1 1.6 8C2 9.3 3.2 10.3 4.7 10.3C3.5 11.2 1.7 11.7 0 11.5C1.5 12.4 3.2 13 5 13C11.1 13 14.5 7.9 14.3 3.2C15 2.8 15.6 2.2 16 1.5Z" fill="white"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20" id="users">
+    <path d="M22.0002 18.3333V16.4815C21.9996 15.6608 21.7315 14.8637 21.2378 14.2151C20.7442 13.5665 20.0531 13.1033 19.2729 12.8981" stroke="#3F444D" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16.5455 18.3333V16.4815C16.5455 15.4992 16.1623 14.5571 15.4804 13.8626C14.7984 13.168 13.8735 12.7778 12.9091 12.7778H5.63636C4.67194 12.7778 3.74702 13.168 3.06507 13.8626C2.38312 14.5571 2 15.4992 2 16.4815V18.3333" stroke="#3F444D" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15.6362 1.78705C16.4184 1.99103 17.1117 2.45436 17.6068 3.104C18.1019 3.75364 18.3706 4.55263 18.3706 5.37501C18.3706 6.19739 18.1019 6.99638 17.6068 7.64602C17.1117 8.29566 16.4184 8.75899 15.6362 8.96297" stroke="#3F444D" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9.27259 9.07406C11.2809 9.07406 12.909 7.41586 12.909 5.37036C12.909 3.32486 11.2809 1.66666 9.27259 1.66666C7.26429 1.66666 5.63623 3.32486 5.63623 5.37036C5.63623 7.41586 7.26429 9.07406 9.27259 9.07406Z" stroke="#3F444D" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+</svg>
+    <h1>
+      SVG Sprite Demo
+      <br/>
+      <small>
+        created with <a href="https://svgsprit.es/">svgsprit.es</a>
+      </small>
+    </h1>
+    <svg class="icon">
+  <use xlink:href="#arrow-left"></use>
+</svg><svg class="icon">
+  <use xlink:href="#arrow-right"></use>
+</svg><svg class="icon">
+  <use xlink:href="#calendar"></use>
+</svg><svg class="icon">
+  <use xlink:href="#chevron-down"></use>
+</svg><svg class="icon">
+  <use xlink:href="#chevron-left"></use>
+</svg><svg class="icon">
+  <use xlink:href="#chevron-right"></use>
+</svg><svg class="icon">
+  <use xlink:href="#clock"></use>
+</svg><svg class="icon">
+  <use xlink:href="#close"></use>
+</svg><svg class="icon">
+  <use xlink:href="#facebook"></use>
+</svg><svg class="icon">
+  <use xlink:href="#instagram"></use>
+</svg><svg class="icon">
+  <use xlink:href="#menu"></use>
+</svg><svg class="icon">
+  <use xlink:href="#minus"></use>
+</svg><svg class="icon">
+  <use xlink:href="#plus"></use>
+</svg><svg class="icon">
+  <use xlink:href="#twitter"></use>
+</svg><svg class="icon">
+  <use xlink:href="#users"></use>
+</svg>
+  </body>
