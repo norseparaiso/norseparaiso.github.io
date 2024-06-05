@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="vmxclusives">
+	<head>
+		<title>VMXclusives | Privacy Policy</title>
+				<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="VMXclusives: Get more intimate with your favorite crush">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		<link rel="manifest" href="images/site.webmanifest">
+		<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#00c8ba">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<meta name="msapplication-TileColor" content="#00c8ba">
+		<meta name="msapplication-config" content="/images/browserconfig.xml">
+		<meta name="theme-color" content="#00c8ba">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+		<!-- DaisyUI CSS - https://daisyui.com/docs/cdn/ - Local dev env only Replace with tailwind CLI! -->
+		<link href="https://cdn.jsdelivr.net/npm/daisyui@3.1.0/dist/full.css" rel="stylesheet" type="text/css" />
+		<script src="https://cdn.tailwindcss.com"></script> 
+		<!-- DaisyUI CSS end -->
+
+		<!-- swiper css - todo: install & replace CDN -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<!-- Swiper - https://swiperjs.com/get-started -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+
+		<style type="text/css">
+			/* Global styles & VMX colors - add to assets */
+			/* Theme: https://daisyui.com/docs/themes/ */
+			[data-theme=vmxclusives] {
+				color-scheme: light;
+				--pf: 183 47% 52%;
+				--sf: 24 100% 50%;
+				--af: 39 84% 51%;
+				--nf: 280 46% 7%;
+				--in: 198 93% 60%;
+				--su: 122 100% 38%;
+				--wa: 24 100% 50%;
+				--er: 345 86% 52%;
+				--pc: 183 20% 13%;
+				--sc: 340 15% 16%;
+				--ac: 37 41% 13%;
+				--nc: 283 9% 81%;
+				--inc: 198 100% 12%;
+				--suc: 158 100% 10%;
+				--wac: 43 100% 11%;
+				--erc: 0 100% 14%;
+				--rounded-box: 4px;
+				--rounded-badge: 4px;
+				--animation-btn: 0.25s;
+				--animation-input: .2s;
+				--btn-text-case: uppercase;
+				--btn-focus-scale: 0.95;
+				--border-btn: 1px;
+				--p: 24 100% 50%;
+				--s: 183 47% 52%;
+				--a: 39 84% 58%;
+				--n: 280 46% 14%;
+				--b1: 0 0% 100%;
+				--b2: 226 0% 92%;
+				--b3: 223 14% 89%;
+				--bc: 0 0% 7%;
+				--rounded-btn: 4px;
+				--tab-border: 2px;
+				--tab-radius: .5rem
+			}
+			
+			/* style overrides  */
+			body{
+				color: #121212;
+			}
+			*, body, body *{
+				font-family: "Inter", sans-serif;
+			}
+			h1, h2, h3{
+				font-family: "DM Serif Display", serif;
+				font-weight: 400;
+				font-style: italic;
+				color: #121212;
+			}
+			.drawer-toggle:checked ~ .drawer-side{
+				pointer-events: none;
+				visibility: hidden;
+			}
+			#menu-drawer:checked ~ .drawer-side.megamenu,
+			#search-drawer:checked ~ .drawer-side.search,
+			#cart-drawer:checked ~ .drawer-side.cart,
+			#sort-filter-drawer:checked ~ .drawer-side.sort-filter{
+				pointer-events: auto;
+				visibility: visible;
+			}
+			/* bg-[#1e1e1e] */
+			.bg-theme-gray{
+				background-color: #1e1e1e;
+			}
+			/* bg-[#121212] */
+			.bg-theme-dark{
+				background-color: #121212;
+			}
+			/* bg-[#00C8BA] */
+			.bg-theme-alt{
+				background-color: #00C8BA;
+			}
+			/* text-[#121212] */
+			.text-theme{
+				color: #121212;
+			}
+			/* text-[#00C8BA] */
+			.text-theme-alt{
+				color: #00C8BA;
+			}
+			/* text-[#FF6400]*/
+			.text-theme-orange{
+				color: hsl(var(--p));
+			}
+			/*hover:text-[#FF6400]*/
+			.text-hover:hover{
+				color: hsl(var(--p));
+			}
+			.btn.btn-primary,
+			.btn.btn-primary-blue{
+				background-color: hsl(var(--p));
+				color: #fff;
+				border-radius: 8px;
+				font-weight: 300;
+				font-size: 14px;
+				border: 0px;
+				outline: none !important;
+				box-shadow: none !important;
+			}
+			.btn.btn-primary-blue{
+				background-color: #00C8BA;
+			}
+			.btn.btn-primary-blue:hover,
+			.btn.btn-primary-blue-alt:hover{
+				background-color: #009389;
+			}
+			.btn.btn-primary:hover{
+				background-color: #D45D10;
+			}
+			.btn.btn-primary-alt,
+			.btn.btn-secondary,
+			.btn.btn-primary-blue-alt{
+				background-color: transparent;
+				color: #fff;
+				border-radius: 8px;
+				font-weight: 300;
+				font-size: 14px;
+				border: 1px solid #fff;
+				outline: none !important;
+				box-shadow: none !important;
+			}
+			.btn.btn-primary-alt{
+				border-color: hsl(var(--p));
+			}
+			.btn.btn-primary-blue-alt{
+				color: #fff;
+				border-color: #00C8BA;
+			}
+			.btn.btn-secondary{
+				color: #121212;
+				border-color: #121212;
+			}
+			.btn.btn-primary-alt:hover,
+			.btn.btn-secondary:hover{
+				color: hsl(var(--p));
+				border-color: hsl(var(--p));
+			}
+			.overlay-bg-before{
+				position: relative;
+			}
+			.overlay-bg-before:before{
+				content: " ";
+				position: absolute;
+				display: block;
+				width: 100%;
+				height: 100%;
+				top: 0px;
+				left: 0px;
+				background-color: rgba(0,0,0,0.6);
+				z-index: 1;
+			}
+			.overlay-bg-before > *{
+				z-index: 2;
+				position: relative;
+			}
+			#agepopup.modal[open]{
+				background-color: rgba(0,0,0,0.8);
+			}
+			.button-prev,
+			.button-next{
+				position: absolute;
+				top: 50%;
+				transition: opacity 0.3s;
+			}
+			.button-prev:hover,
+			.button-next:hover{
+				opacity: 0.7;
+			}
+			.button-prev.swiper-button-disabled,
+			.button-next.swiper-button-disabled{
+				opacity: 0.2;
+			}
+			.button-prev{
+				left: 0px;
+				transform: translate(-180%, -50%);
+			}
+			.button-next{
+				right: 0px;
+				transform: translate(180%, -50%);
+			}
+			.badge-xxs {
+				height: 0.55rem;
+				font-size: 0.55rem;
+				line-height: .55rem;
+				padding-left: 0.213rem;
+				padding-right: 0.213rem;
+			}
+			.overlay-text,
+			.overlay-icon-href{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				height: 100%;
+				width: 100%;
+				background-color: rgba(0,0,0,0.4);
+			}
+			.overlay-icon-href:after{
+				content: url("data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M6.66667%204C5.20925%204%204%205.20925%204%206.66667V25.3333C4%2026.7908%205.20925%2028%206.66667%2028H25.3333C26.7908%2028%2028%2026.7908%2028%2025.3333V16H25.3333V25.3333H6.66667V6.66667H16V4H6.66667ZM18.6667%204V6.66667H23.4479L11.0573%2019.0573L12.9427%2020.9427L25.3333%208.55208V13.3333H28V4H18.6667Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+			}
+			.overlay-text > div,
+			.overlay-icon-href:after{
+				color: #fff;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.drawer-side .swiper-scrollbar-drag{
+				background: rgba(112, 112, 112, 0.3);
+			}
+			.drawer-side .swiper-scrollbar{
+				background: rgba(255, 255, 255, 0.1);
+			}
+			.w-swiper-wrap{
+				width: calc(100vw - (100vw - 100%));
+			}
+			@media (min-width: 768px) {
+			    .md\:text-banner{
+			        font-size: 88px !important;
+			    }
+			    .md\:min-h-banner{
+			        min-height: 642px !important;
+			    }
+				/* md:w-[28.334%]*/
+				.md-w-slide-sm{
+					width: 28.334% !important;
+				}
+				/* md:w-5/12*/
+				.md-w-slide-lg{
+					width: 43.3334% !important;
+				}
+			}
+			@media (min-width: 1280px) {
+				body .container {
+					max-width: 1240px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="app drawer" id="root">
+			<!-- drawer toggles - required elements & classes: https://daisyui.com/components/drawer/ -->
+			<input id="menu-drawer" type="checkbox" name="drawerToggles" class="drawer-toggle"/>
+			<input id="search-drawer" type="checkbox" name="drawerToggles" class="drawer-toggle"/>
+			<input id="cart-drawer" type="checkbox" name="drawerToggles" class="drawer-toggle"/>
+			<div class="drawer-content flex flex-col">
+				<!-- Header start -->
+<div class="text-center p-2 bg-theme-alt text-white text-sm">
+	<p>Get more intimate with your favorite crush at <a href="#" class="underline underline-offset-">VMXclusives</a></p>
+</div>
+<div class="bg-theme-dark navbar-con sticky top-0 z-30">
+	<div class="container mx-auto">
+		<nav class="navbar py-2 md:py-5">
+			<div class="navbar-start">
+				<div class="flex gap-2 sm:gap-4 justify-start">
+					<label 
+						tabindex="0" 
+						for="menu-drawer" 
+						aria-label="open sidebar" 
+						class="btn btn-square btn-ghost transition-opacity hover:opacity-70" 
+						id="menu-tgl" 
+						onmouseenter="vmx.script.setDrawerPositionRight(false);"
+						onclick="vmx.script.setBodyOverflow(true);"
+					>
+						<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C20 1.55229 19.5523 2 19 2L1 2C0.447716 2 0 1.55228 0 1C0 0.447715 0.447716 0 1 0H19C19.5523 0 20 0.447717 20 1ZM20 8C20 8.55229 19.5523 9 19 9L1 9C0.447716 9 0 8.55228 0 8C0 7.44771 0.447716 7 1 7L19 7C19.5523 7 20 7.44772 20 8ZM19 16C19.5523 16 20 15.5523 20 15C20 14.4477 19.5523 14 19 14L1 14C0.447716 14 0 14.4477 0 15C0 15.5523 0.447716 16 1 16L19 16Z" fill="white"/></svg>
+					</label>
+					<a href="vmx-crushes-listing.html" class="text-white text-sm text-hover transition-color my-auto hidden md:flex gap-2 items-center">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_316_97)"><path d="M17.5009 16.331C16.9086 16.5544 16.2743 16.6297 15.649 16.5507C14.9229 16.4406 14.235 16.1411 13.649 15.68C13.6136 15.6492 13.5725 15.6264 13.5282 15.6129C13.484 15.5994 13.4376 15.5955 13.3918 15.6015C13.3461 15.6076 13.302 15.6233 13.2624 15.6478C13.2227 15.6723 13.1883 15.7051 13.1612 15.744C13.1342 15.783 13.1151 15.8273 13.1051 15.8743C13.0951 15.9213 13.0945 15.9699 13.1033 16.0172C13.112 16.0644 13.13 16.1093 13.156 16.149C13.1821 16.1887 13.2156 16.2224 13.2546 16.248C13.9304 16.7799 14.7241 17.1248 15.5617 17.2506C16.1572 17.3288 16.7615 17.284 17.3404 17.1188C17.0536 18.792 17.1627 20.1038 17.6522 22.0016H4.86961C5.2905 20.1396 5.32012 18.7985 4.76049 17.166C5.28616 17.2931 5.82928 17.3218 6.36455 17.2506C7.20296 17.1271 7.99774 16.7838 8.67476 16.2529C8.71378 16.2273 8.74735 16.1936 8.77339 16.1539C8.79943 16.1142 8.81738 16.0693 8.82614 16.0221C8.8349 15.9748 8.83428 15.9262 8.82431 15.8792C8.81434 15.8322 8.79523 15.7879 8.76818 15.7489C8.74113 15.7099 8.7067 15.6772 8.66704 15.6527C8.62737 15.6282 8.58331 15.6124 8.53758 15.6064C8.49185 15.6004 8.44542 15.6043 8.40118 15.6178C8.35694 15.6313 8.31582 15.6541 8.28037 15.6849C7.6944 16.146 7.00654 16.4455 6.28037 16.5556C5.66008 16.6347 5.03067 16.5611 4.44249 16.3408L4.43469 16.3229C3.98947 16.0546 3.5957 15.7025 3.27335 15.2845C2.59431 14.3948 2.17009 13.3227 2.04966 12.192C1.94764 11.3427 1.99572 10.481 2.19151 9.6497C2.38997 8.86344 2.71922 8.11971 3.16423 7.45243L2.92261 2.54846C2.92091 2.51454 2.93056 2.48106 2.9499 2.45375C2.96923 2.42643 2.99706 2.40698 3.02861 2.39872C3.55862 2.26363 4.09331 2.16272 4.6202 2.01624C4.65616 2.00686 4.69422 2.01272 4.72605 2.03254C4.75789 2.05236 4.78092 2.08454 4.79011 2.12203C4.79159 2.1301 4.79159 2.13838 4.79011 2.14644L5.18294 7.47522C6.24919 7.98954 7.30453 8.84241 8.23828 9.8385C9.23814 10.8993 10.0861 12.1054 10.7558 13.4192H11.1596C11.8297 12.1057 12.6776 10.8997 13.6771 9.8385C14.6124 8.84404 15.6662 7.99117 16.7324 7.47685L17.0847 2.13668C17.0859 2.11683 17.0909 2.09743 17.0995 2.07966C17.108 2.0619 17.12 2.04614 17.1345 2.03334C17.1491 2.02055 17.166 2.01099 17.1843 2.00526C17.2025 1.99952 17.2217 1.99771 17.2406 1.99996C17.253 2.00224 17.265 2.00606 17.2765 2.01135C17.822 2.20635 18.3858 2.34003 18.9585 2.41012C18.9771 2.41194 18.9951 2.41762 19.0116 2.42683C19.0281 2.43604 19.0426 2.4486 19.0544 2.46376C19.0662 2.47892 19.0749 2.49639 19.0801 2.51512C19.0853 2.53386 19.0869 2.5535 19.0847 2.57288L18.7574 7.46383C18.9361 7.75883 19.1005 8.06303 19.25 8.37529C19.9842 9.92314 20.2336 11.4515 19.7426 13.1572C19.3684 14.4625 18.6794 15.6718 17.5009 16.331Z" fill="#FF6400"/></g><defs><clipPath id="clip0_316_97"><rect width="18" height="20" fill="white" transform="translate(2 2)"/></clipPath></defs></svg>
+						<span>VMX Crushes</span>
+					</a>
+				</div>
+			</div>
+			<div class="navbar-center logo">
+				<a href="/">
+					<picture>
+						<source srcset="images/logo.webp 1x, images/logo_x2.webp 2x" type="image/webp">
+						<source srcset="images/logo.jpg 1x, images/logo_x2.jpg 2x" type="image/jpg">
+						<img 
+							alt="VMX" 
+							draggable="false" 
+							height="40" 
+							width="116" 
+							loading="lazy" 
+							src="images/logo.jpg"
+							class="w-[90px] sm:w-auto"
+						/>
+					</picture>
+				</a>
+			</div>
+			<div class="navbar-end pe-5 md:pe-2">
+				<div class="flex gap-2 sm:gap-4 lg:gap-8">
+					<label 
+						tabindex="0" 
+						for="search-drawer" 
+						aria-label="open sidebar" 
+						class="gap-1 h-auto flex-nowrap flex flex-col text-white text-hover font-normal text-sm normal-case btn btn-ghost p-0 transition-opacity hover:opacity-70" 
+						id="search-tgl" 
+						onmouseenter="vmx.script.setDrawerPositionRight(true);"
+						onclick="vmx.script.setBodyOverflow(true);"
+					>
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11ZM16.6177 18.0319C15.078 19.2635 13.125 20 11 20C6.02944 20 2 15.9706 2 11C2 6.02944 6.02944 2 11 2C15.9706 2 20 6.02944 20 11C20 13.125 19.2635 15.078 18.0319 16.6177L21.7071 20.2929C22.0976 20.6834 22.0976 21.3166 21.7071 21.7071C21.3166 22.0976 20.6834 22.0976 20.2929 21.7071L16.6177 18.0319Z" fill="white"/></svg>
+						<span class="hidden md:flex">Search</span>
+					</label>
+					<a href="account-profile.html" class="gap-1 h-auto flex-nowrap flex flex-col text-white text-hover font-normal text-sm normal-case btn btn-ghost p-0 transition-opacity hover:opacity-70">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M12 14C15.3137 14 18 11.3137 18 8C18 4.68629 15.3137 2 12 2C8.68629 2 6 4.68629 6 8C6 11.3137 8.68629 14 12 14ZM16 8C16 10.2091 14.2091 12 12 12C9.79086 12 8 10.2091 8 8C8 5.79086 9.79086 4 12 4C14.2091 4 16 5.79086 16 8ZM7 18.5C7 18.4971 7.00004 18.4795 7.01675 18.4421C7.03448 18.4025 7.07168 18.3399 7.14605 18.259C7.29899 18.0927 7.57327 17.8889 8.00727 17.6916C8.87352 17.2978 10.2232 17 12 17C13.7768 17 15.1265 17.2978 15.9927 17.6916C16.4267 17.8889 16.701 18.0927 16.8539 18.259C16.9283 18.3399 16.9655 18.4025 16.9832 18.4421C17 18.4795 17 18.4971 17 18.5L17 20.4531V20.873V20.9695V20.9925V20.9982V20.9995V20.9999V21V21C17 21.5523 17.4477 22 18 22C18.5523 22 19 21.5523 19 21V21V20.9999V20.9995V20.9981V20.9925V20.9695V20.873L19 20.4531V18.5C19 17.2483 17.9291 16.3749 16.8204 15.8709C15.6244 15.3272 13.9741 15 12 15C10.0259 15 8.37562 15.3272 7.17959 15.8709C6.07086 16.3749 5 17.2483 5 18.5V18.5073V18.5146V18.522V18.5293V18.5366V18.5439V18.5513V18.5586V18.5659V18.5732V18.5806V18.5879V18.5952V18.6025V18.6098V18.6171V18.6245V18.6318V18.6391V18.6464V18.6537V18.661V18.6683V18.6757V18.683V18.6903V18.6976V18.7049V18.7122V18.7195V18.7268V18.7341V18.7414V18.7487V18.7559V18.7632V18.7705V18.7778V18.7851V18.7924V18.7997V18.8069V18.8142V18.8215V18.8287V18.836V18.8433V18.8505V18.8578V18.865V18.8723V18.8796V18.8868V18.894V18.9013V18.9085V18.9158V18.923V18.9302V18.9374V18.9447V18.9519V18.9591V18.9663V18.9735V18.9807V18.9879V18.9951V19.0023V19.0095V19.0167V19.0239V19.031V19.0382V19.0454V19.0526V19.0597V19.0669V19.074V19.0812V19.0883V19.0955V19.1026V19.1097V19.1168V19.124V19.1311V19.1382V19.1453V19.1524V19.1595V19.1666V19.1737V19.1807V19.1878V19.1949V19.202V19.209V19.2161V19.2231V19.2302V19.2372V19.2442V19.2512V19.2583V19.2653V19.2723V19.2793V19.2863V19.2933V19.3003V19.3072V19.3142V19.3212V19.3281V19.3351V19.342V19.349V19.3559V19.3628V19.3697V19.3766V19.3835V19.3904V19.3973V19.4042V19.4111V19.418V19.4248V19.4317V19.4385V19.4454V19.4522V19.459V19.4659V19.4727V19.4795V19.4863V19.4931V19.4998V19.5066V19.5134V19.5201V19.5269V19.5336V19.5404V19.5471V19.5538V19.5605V19.5672V19.5739V19.5806V19.5872V19.5939V19.6006V19.6072V19.6139V19.6205V19.6271V19.6337V19.6403V19.6469V19.6535V19.6601V19.6667V19.6732V19.6798V19.6863V19.6928V19.6994V19.7059V19.7124V19.7189V19.7254V19.7318V19.7383V19.7447V19.7512V19.7576V19.764V19.7705V19.7769V19.7833V19.7896V19.796V19.8024V19.8087V19.8151V19.8214V19.8277V19.834V19.8403V19.8466V19.8529V19.8592V19.8654V19.8717V19.8779V19.8841V19.8903V19.8965V19.9027V19.9089V19.9151V19.9212V19.9274V19.9335V19.9396V19.9457V19.9518V19.9579V19.964V19.9701V19.9761V19.9821V19.9882V19.9942V20.0002V20.0062V20.0122V20.0181V20.0241V20.03V20.0359V20.0419V20.0478V20.0537V20.0595V20.0654V20.0713V20.0771V20.0829V20.0887V20.0945V20.1003V20.1061V20.1119V20.1176V20.1233V20.1291V20.1348V20.1405V20.1462V20.1518V20.1575V20.1631V20.1687V20.1744V20.18V20.1855V20.1911V20.1967V20.2022V20.2077V20.2132V20.2188V20.2242V20.2297V20.2352V20.2406V20.246V20.2514V20.2568V20.2622V20.2676V20.273V20.2783V20.2836V20.2889V20.2942V20.2995V20.3048V20.31V20.3153V20.3205V20.3257V20.3309V20.336V20.3412V20.3463V20.3515V20.3566V20.3617V20.3667V20.3718V20.3769V20.3819V20.3869V20.3919V20.3969V20.4018V20.4068V20.4117V20.4167V20.4216V20.4264V20.4313V20.4362V20.441V20.4458V20.4506V20.4554V20.4602V20.4649V20.4696V20.4744V20.4791V20.4837V20.4884V20.4931V20.4977V20.5023V20.5069V20.5115V20.516V20.5206V20.5251V20.5296V20.5341V20.5386V20.543V20.5475V20.5519V20.5563V20.5607V20.565V20.5694V20.5737V20.578V20.5823V20.5866V20.5908V20.5951V20.5993V20.6035V20.6077V20.6118V20.616V20.6201V20.6242V20.6283V20.6323V20.6364V20.6404V20.6444V20.6484V20.6524V20.6563V20.6603V20.6642V20.6681V20.6719V20.6758V20.6796V20.6834V20.6872V20.691V20.6948V20.6985V20.7022V20.7059V20.7096V20.7132V20.7169V20.7205V20.7241V20.7276V20.7312V20.7347V20.7382V20.7417V20.7452V20.7486V20.752V20.7555V20.7588V20.7622V20.7655V20.7689V20.7722V20.7754V20.7787V20.7819V20.7852V20.7883V20.7915V20.7947V20.7978V20.8009V20.804V20.8071V20.8101V20.8131V20.8161V20.8191V20.822V20.825V20.8279V20.8308V20.8336V20.8365V20.8393V20.8421V20.8449V20.8476V20.8504V20.8531V20.8558V20.8584V20.8611V20.8637V20.8663V20.8688V20.8714V20.8739V20.8764V20.8789V20.8813V20.8838V20.8862V20.8886V20.8909V20.8933V20.8956V20.8979V20.9001V20.9024V20.9046V20.9068V20.9089V20.9111V20.9132V20.9153V20.9174V20.9194V20.9215V20.9235V20.9254V20.9274V20.9293V20.9312V20.9331V20.935V20.9368V20.9386V20.9404V20.9421V20.9438V20.9456V20.9472V20.9489V20.9505V20.9521V20.9537V20.9552V20.9568V20.9583V20.9598V20.9612V20.9626V20.964V20.9654V20.9667V20.9681V20.9694V20.9706V20.9719V20.9731V20.9743V20.9755V20.9766V20.9777V20.9788V20.9799V20.9809V20.9819V20.9829V20.9838V20.9848V20.9857V20.9865V20.9874V20.9882V20.989V20.9898V20.9905V20.9912V20.9919V20.9925V20.9932V20.9938V20.9944V20.9949V20.9954V20.9959V20.9964V20.9968V20.9972V20.9976V20.998V20.9983V20.9986V20.9988V20.9991V20.9993V20.9995V20.9996V20.9998V20.9999V20.9999V21C5 21.5523 5.44772 22 6 22C6.55228 22 7 21.5523 7 21V20.9999V20.9999V20.9998V20.9996V20.9995V20.9993V20.9991V20.9988V20.9986V20.9983V20.998V20.9976V20.9972V20.9968V20.9964V20.9959V20.9954V20.9949V20.9944V20.9938V20.9932V20.9925V20.9919V20.9912V20.9905V20.9898V20.989V20.9882V20.9874V20.9865V20.9857V20.9848V20.9838V20.9829V20.9819V20.9809V20.9799V20.9788V20.9777V20.9766V20.9755V20.9743V20.9731V20.9719V20.9706V20.9694V20.9681V20.9667V20.9654V20.964V20.9626V20.9612V20.9598V20.9583V20.9568V20.9552V20.9537V20.9521V20.9505V20.9489V20.9472V20.9456V20.9438V20.9421V20.9404V20.9386V20.9368V20.935V20.9331V20.9312V20.9293V20.9274V20.9254V20.9235V20.9215V20.9194V20.9174V20.9153V20.9132V20.9111V20.9089V20.9068V20.9046V20.9024V20.9001V20.8979V20.8956V20.8933V20.8909V20.8886V20.8862V20.8838V20.8813V20.8789V20.8764V20.8739V20.8714V20.8688V20.8663V20.8637V20.8611V20.8584V20.8558V20.8531V20.8504V20.8476V20.8449V20.8421V20.8393V20.8365V20.8336V20.8308V20.8279V20.825V20.822V20.8191V20.8161V20.8131V20.8101V20.8071V20.804V20.8009V20.7978V20.7947V20.7915V20.7883V20.7852V20.7819V20.7787V20.7754V20.7722V20.7689V20.7655V20.7622V20.7588V20.7555V20.752V20.7486V20.7452V20.7417V20.7382V20.7347V20.7312V20.7276V20.7241V20.7205V20.7169V20.7132V20.7096V20.7059V20.7022V20.6985V20.6948V20.691V20.6872V20.6834V20.6796V20.6758V20.6719V20.6681V20.6642V20.6603V20.6563V20.6524V20.6484V20.6444V20.6404V20.6364V20.6323V20.6283V20.6242V20.6201V20.616V20.6118V20.6077V20.6035V20.5993V20.5951V20.5908V20.5866V20.5823V20.578V20.5737V20.5694V20.565V20.5607V20.5563V20.5519V20.5475V20.543V20.5386V20.5341V20.5296V20.5251V20.5206V20.516V20.5115V20.5069V20.5023V20.4977V20.4931V20.4884V20.4837V20.4791V20.4744V20.4696V20.4649V20.4602V20.4554V20.4506V20.4458V20.441V20.4362V20.4313V20.4264V20.4216V20.4167V20.4117V20.4068V20.4018V20.3969V20.3919V20.3869V20.3819V20.3769V20.3718V20.3667V20.3617V20.3566V20.3515V20.3463V20.3412V20.336V20.3309V20.3257V20.3205V20.3153V20.31V20.3048V20.2995V20.2942V20.2889V20.2836V20.2783V20.273V20.2676V20.2622V20.2568V20.2514V20.246V20.2406V20.2352V20.2297V20.2242V20.2188V20.2132V20.2077V20.2022V20.1967V20.1911V20.1855V20.18V20.1744V20.1687V20.1631V20.1575V20.1518V20.1462V20.1405V20.1348V20.1291V20.1233V20.1176V20.1119V20.1061V20.1003V20.0945V20.0887V20.0829V20.0771V20.0713V20.0654V20.0595V20.0537V20.0478V20.0419V20.0359V20.03V20.0241V20.0181V20.0122V20.0062V20.0002V19.9942V19.9882V19.9821V19.9761V19.9701V19.964V19.9579V19.9518V19.9457V19.9396V19.9335V19.9274V19.9212V19.9151V19.9089V19.9027V19.8965V19.8903V19.8841V19.8779V19.8717V19.8654V19.8592V19.8529V19.8466V19.8403V19.834V19.8277V19.8214V19.8151V19.8087V19.8024V19.796V19.7896V19.7833V19.7769V19.7705V19.764V19.7576V19.7512V19.7447V19.7383V19.7318V19.7254V19.7189V19.7124V19.7059V19.6994V19.6928V19.6863V19.6798V19.6732V19.6667V19.6601V19.6535V19.6469V19.6403V19.6337V19.6271V19.6205V19.6139V19.6072V19.6006V19.5939V19.5872V19.5806V19.5739V19.5672V19.5605V19.5538V19.5471V19.5404V19.5336V19.5269V19.5201V19.5134V19.5066V19.4998V19.4931V19.4863V19.4795V19.4727V19.4659V19.459V19.4522V19.4454V19.4385V19.4317V19.4248V19.418V19.4111V19.4042V19.3973V19.3904V19.3835V19.3766V19.3697V19.3628V19.3559V19.349V19.342V19.3351V19.3281V19.3212V19.3142V19.3072V19.3003V19.2933V19.2863V19.2793V19.2723V19.2653V19.2583V19.2512V19.2442V19.2372V19.2302V19.2231V19.2161V19.209V19.202V19.1949V19.1878V19.1807V19.1737V19.1666V19.1595V19.1524V19.1453V19.1382V19.1311V19.124V19.1168V19.1097V19.1026V19.0955V19.0883V19.0812V19.074V19.0669V19.0597V19.0526V19.0454V19.0382V19.031V19.0239V19.0167V19.0095V19.0023V18.9951V18.9879V18.9807V18.9735V18.9663V18.9591V18.9519V18.9447V18.9374V18.9302V18.923V18.9158V18.9085V18.9013V18.894V18.8868V18.8796V18.8723V18.865V18.8578V18.8505V18.8433V18.836V18.8287V18.8215V18.8142V18.8069V18.7997V18.7924V18.7851V18.7778V18.7705V18.7632V18.7559V18.7487V18.7414V18.7341V18.7268V18.7195V18.7122V18.7049V18.6976V18.6903V18.683V18.6757V18.6683V18.661V18.6537V18.6464V18.6391V18.6318V18.6245V18.6171V18.6098V18.6025V18.5952V18.5879V18.5806V18.5732V18.5659V18.5586V18.5513V18.5439V18.5366V18.5293V18.522V18.5146V18.5073V18.5Z" fill="white"/>
+						</svg>
+						<span class="hidden md:flex">My Account</span>
+					</a>
+					<div class="indicator"> 
+						<label 
+							tabindex="0" 
+							for="cart-drawer" 
+							aria-label="open sidebar" 
+							class="gap-1 h-auto flex-nowrap flex flex-col text-white text-hover font-normal text-sm normal-case btn btn-ghost p-0 transition-opacity hover:opacity-70" 
+							id="cart-tgl" 
+							onmouseenter="vmx.script.setDrawerPositionRight(true);"
+							onclick="vmx.script.setBodyOverflow(true);"
+						>
+							<span class="relative">
+								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.75791 4.50001C7.75791 3.56704 8.0267 2.9492 8.38118 2.58029C8.71657 2.23125 9.22764 2 10 2C10.7724 2 11.2834 2.23125 11.6188 2.58029C11.9733 2.9492 12.2421 3.56704 12.2421 4.5V5H7.75791V4.50001ZM5.51582 7V9C5.51582 9.55229 6.01773 10 6.63686 10C7.256 10 7.75791 9.55229 7.75791 9V7H12.2421V9C12.2421 9.55229 12.744 10 13.3631 10C13.9823 10 14.4842 9.55229 14.4842 9V7H16.8092L17.7578 18H2.24222L3.1908 7H5.51582ZM5.51582 5V4.5C5.51582 3.24496 5.87738 2.1128 6.67886 1.27871C7.49942 0.424752 8.66993 0 10 0C11.3301 0 12.5006 0.424752 13.3212 1.27871C14.1226 2.1128 14.4842 3.24497 14.4842 4.5V5H16.8092C17.9808 5 18.9548 5.80462 19.0447 6.84661L19.9933 17.8466C20.0934 19.0082 19.0638 20 17.7578 20H2.24222C0.936182 20 -0.0934316 19.0082 0.00673714 17.8466L0.955314 6.84661C1.04517 5.80461 2.01923 5 3.1908 5H5.51582Z" fill="white"/></svg>
+								<span class="indicator-item badge badge-primary badge-xs rounded-full top-1 right-0 text-white py-2 font-medium text-[10px]">2</span>
+							</span>
+							<span class="hidden md:flex">My Cart</span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- Header end -->
+
+				<!-- quick-nav -->
+<div class="py-8">
+	<div class="container mx-auto px-5">
+		<div class="flex flex-wrap items-center justify-between gap-5">
+			<div class="w-full md:w-auto">
+				<a href="index.html" class="flex gap-2 my-auto text-hover items-center justify-start">
+					<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_398_579)">
+							<path d="M19 6H1" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M6 0.75L0.75 6L6 11.25" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</g>
+						<defs>
+							<clipPath id="clip0_398_579">
+								<rect width="20" height="12" fill="white" transform="matrix(-1 0 0 1 20 0)"/>
+							</clipPath>
+						</defs>
+					</svg>
+					<span class="mt-px">Back to homepage</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+				<!-- About Us content -->
+				<div class="container mx-auto">
+					<div class="text-left mb-20 px-20 lg:px-5">
+						<div class="mt-2 md:mt-5 mx-auto max-w-[880px] text-theme">
+							<div class="mb-8">
+								<h1 class="text-2xl md:text-5xl italic leading-none">Privacy Policy</h1>
+								<p class="text-base mt-4 font-light">(Last updated June 14,2023)</p>
+							</div>
+							<div>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									<strong class="font-semibold">This privacy policy discloses the privacy practices for Viva Communications, Inc. This privacy policy applies solely to information collected by this Site. It will notify you of the following:</strong>
+								</p>
+								<ul class="mb-5 list-disc ps-8">
+									<li class="mb-1 text-base md:text-lg font-light leading-8">What personally identifiable information is collected from you through the web site, how it is used and with whom it may be shared.</li>
+									<li class="mb-1 text-base md:text-lg font-light leading-8">What choices are available to you regarding the use of your data.</li>
+									<li class="mb-1 text-base md:text-lg font-light leading-8">The security procedures in place to protect the misuse of your information.</li>
+									<li class="mb-1 text-base md:text-lg font-light leading-8">How you can correct any inaccuracies in the information.</li>
+								</ul>
+
+								<h4 class="mt-8 mb-8 text-base md:text-lg font-semibold leading-8">
+									Information Collection, Use, and Sharing
+								</h4>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									We are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you. We will not sell or rent this information to anyone.
+								</p>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.
+								</p>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.
+								</p>
+
+								<h4 class="mt-8 mb-8 text-base md:text-lg font-semibold leading-8">
+									Your Access to and Control Over Information
+								</h4>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									You may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address or phone number given on our Site:
+								</p>
+								<ul class="mb-5 list-disc ps-8">
+									<li class="mb-1 text-base md:text-lg font-light leading-8">See what data we have about you, if any.</li>
+									<li class="mb-1 text-base md:text-lg font-light leading-8">Change/correct any data we have about you.</li>
+									<li class="mb-1 text-base md:text-lg font-light leading-8">Have us delete any data we have about you.</li>
+									<li class="mb-1 text-base md:text-lg font-light leading-8">Express any concern you have about our use of your data.</li>
+								</ul>
+
+								<h4 class="mt-8 mb-8 text-base md:text-lg font-semibold leading-8">
+									Security
+								</h4>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									We take precautions to protect your information. When you submit sensitive information via the Site, your information is protected both online and offline.
+								</p>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									Wherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a closed lock icon at the bottom of your web browser, or looking for "https" at the beginning of the address of the web page.
+								</p>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									While we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. The computers/servers in which we store personally identifiable information are kept in a secure environment.
+								</p>
+
+								<h4 class="mt-8 mb-8 text-base md:text-lg font-semibold leading-8">
+									Third Party Indemnity
+								</h4>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									You agree to defend, indemnify and hold the Site and its administrators, free and harmless from and against any and all claims, damages, costs and expenses, including attorneys' fees, from any claim or demand made by any third party due to or arising from or related to your (a) use of the Site, (b) your violation of the Agreement, or (c) your violation of applicable laws or regulations. We reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us and you agree to cooperate with our defense of these claims; and in such cases you agree not to settle any matter without our prior written consent.
+								</p>
+
+								<h4 class="mt-8 mb-8 text-base md:text-lg font-semibold leading-8">
+									Updates
+								</h4>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									Our Privacy Policy may change from time to time and all updates will be posted on this page.
+								</p>
+
+								<h4 class="mt-8 mb-8 text-base md:text-lg font-semibold leading-8">
+									Use of Third Party Software and Services
+								</h4>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									By using the Site you may have access to tools which we may neither monitor nor have any control nor input over. You acknowledge and agree that such access to these tools is on an “as is” and “as available” basis without any warranties, representations, conditions, or endorsements of any kind. We shall have no liability whatsoever arising from or relating to your use of such tools. Any use by you of these tools is entirely at your own risk and discretion and you should ensure that you are familiar with and approve of the terms on which tools are provided by the relevant third-party provider(s). Any new features, tools and/or services accessible via the Site shall also be subject to these Terms.
+								</p>
+								
+								<h4 class="mt-8 mb-8 text-base md:text-lg font-semibold leading-8">
+									Third Party Content
+								</h4>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									Certain integrated, linked and/or related webpages to our Site are operated by our partner HelixPay. By using, accessing or browsing these webpages, you unqualifiedly agree to likewise be bound by HelixPay’s privacy policy. <br>
+									For your benefit, the current version of HelixPay’s privacy policy (as of June 14, 2023), is reproduced in the table below. However, your continued use, access, and browsing shall be deemed your acceptance of its most current version as updated from time to time and accessible through: <a href="https://helixpay.ph/privacy-policy" class="underline text-hover">https://helixpay.ph/privacy-policy.</a>
+								</p>
+
+								<h4 class="mt-8 mb-8 text-base md:text-lg font-semibold leading-8">
+									Cookies
+								</h4>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									We use "cookies" on this site. A cookie is a piece of data stored on a site visitor's hard drive to help us improve your access to our site and identify repeat visitors to our site. For instance, when we use a cookie to identify you, you would not have to log in a password more than once, thereby saving time while on our site. Cookies can also enable us to track and target the interests of our users to enhance the experience on our site. Usage of a cookie is in no way linked to any personally identifiable information on our site.
+								</p>
+								<p class="mb-5 text-base md:text-lg font-light leading-8">
+									For privacy concerns, our Data Privacy Officer (DPO) may be contacted at
+									<a href="mailto:DPOVivaCommunications@viva.com.ph" class="underline text-hover">DPOVivaCommunications@viva.com.ph</a> or at +63 2 687 5853 local 789.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- About Us content end -->
+				<!-- Footer start -->
+<div class="bg-theme-dark navbar-con text-white mt-5">
+	<div class="container mx-auto">
+		<div class="py-14 px-5 block md:flex justify-between">
+			<div class="text-center md:text-left w-full md:w-[264px] flex-none pb-5">
+				<div class="inline-block">
+					<a href="/">
+						<picture>
+							<source srcset="images/logo.webp 1x, images/logo_x2.webp 2x" type="image/webp">
+					<source srcset="images/logo.jpg 1x, images/logo_x2.jpg 2x" type="image/jpg">
+							<img 
+								alt="VMX" 
+								draggable="false" 
+								height="40" 
+								width="116" 
+								loading="lazy" 
+								src="images/logo.jpg"
+							/>
+						</picture>
+					</a>
+				</div>
+				<p class="my-4 text-sm font-light">
+					We are VMX -- Viva's Maximum Crush -- the go-to men's lifestyle portal where you can get exclusive content on all the hottest and sexiest stars of Vivamax and more.
+				</p>
+			</div>
+			<div class="py-4 hidden md:flex flex-col">
+				<p class="text-sm mb-5">
+					<strong class="font-medium">
+						VMXclusives
+					</strong>
+				</p>
+				<ul class="list-none">
+					<li class="font-light text-sm mb-4">
+						<a href="#" class="transition-color text-hover">VMX Crushes</a>
+					</li>
+					<li class="font-light text-sm mb-4">
+						<a href="#" class="transition-color text-hover">VMX Albums</a>
+					</li>
+					<li class="font-light text-sm mb-4">
+						<a href="#" class="transition-color text-hover">Best Selling</a>
+					</li>
+					<li class="font-light text-sm mb-4">
+						<a href="#" class="transition-color text-hover">Latest Albums</a>
+					</li>
+				</ul>
+			</div>
+			<div class="py-4 hidden md:flex flex-col">
+				<p class="text-sm mb-5">
+					<strong class="font-medium">
+						More from VMX
+					</strong>
+				</p>
+				<ul class="list-none">
+					<li class="font-light text-sm mb-4">
+						<a href="#" class="transition-color text-hover">VMX Stories</a>
+					</li>
+					<li class="font-light text-sm mb-4">
+						<a href="about-us.html" class="transition-color text-hover">About Us</a>
+					</li>
+					<li class="font-light text-sm mb-4">
+						<a href="contact-us.html" class="transition-color text-hover">Contact Us</a>
+					</li>
+					<li class="font-light text-sm mb-4">
+						<a href="#" class="transition-color text-hover">Sitemap</a>
+					</li>
+				</ul>
+			</div>
+			<!-- mobile menu accordion -->
+			<div class="footer-mobile-menu block md:hidden w-full border-b border-gray-800 mb-5">
+				<div class="collapse collapse-plus rounded-none border-t border-gray-800">
+					<input type="checkbox" name="footer-accordion" /> 
+					<div class="collapse-title">
+						<p class="text-sm m-0">
+							<strong class="font-medium">
+								VMXclusives
+							</strong>
+						</p>
+					</div>
+					<div class="collapse-content md:min-h-fit md:visible"> 
+						<ul class="list-none">
+							<li class="font-light text-sm mb-4">
+								<a href="#" class="transition-color text-hover">VMX Crushes</a>
+							</li>
+							<li class="font-light text-sm mb-4">
+								<a href="#" class="transition-color text-hover">VMX Albums</a>
+							</li>
+							<li class="font-light text-sm mb-4">
+								<a href="#" class="transition-color text-hover">Best Selling</a>
+							</li>
+							<li class="font-light text-sm mb-4">
+								<a href="#" class="transition-color text-hover">Latest Albums</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="collapse collapse-plus rounded-none border-t border-gray-800">
+					<input type="checkbox" name="footer-accordion" />
+					<div class="collapse-title">
+						<p class="text-sm m-0">
+							<strong class="font-medium">
+								More from VMX
+							</strong>
+						</p>
+					</div>
+					<div class="collapse-content md:min-h-fit md:visible"> 
+						<ul class="list-none">
+							<li class="font-light text-sm mb-4">
+								<a href="#" class="transition-color text-hover">VMX Stories</a>
+							</li>
+							<li class="font-light text-sm mb-4">
+								<a href="about-us.html" class="transition-color text-hover">About Us</a>
+							</li>
+							<li class="font-light text-sm mb-4">
+								<a href="contact-us.html" class="transition-color text-hover">Contact Us</a>
+							</li>
+							<li class="font-light text-sm mb-4">
+								<a href="#" class="transition-color text-hover">Sitemap</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="py-4 mx-auto md:mx-0 text-center md:text-left">
+				<p class="text-sm mb-5">
+					<strong class="font-medium">
+						Follow Us
+					</strong>
+				</p>
+				<ul class="list-none flex gap-4 justify-center md:justify-start">
+					<li class="text-sm mb-4">
+						<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on Meta">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_49_1283)"><path d="M10 0C4.4772 0 0 4.4772 0 10C0 14.6896 3.2288 18.6248 7.5844 19.7056V13.056H5.5224V10H7.5844V8.6832C7.5844 5.2796 9.1248 3.702 12.4664 3.702C13.1 3.702 14.1932 3.8264 14.6404 3.9504V6.7204C14.4044 6.6956 13.9944 6.6832 13.4852 6.6832C11.8456 6.6832 11.212 7.3044 11.212 8.9192V10H14.4784L13.9172 13.056H11.212V19.9268C16.1636 19.3288 20.0004 15.1128 20.0004 10C20 4.4772 15.5228 0 10 0Z" fill="white"/></g><defs><clipPath id="clip0_49_1283"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
+						</a>
+					</li>
+					<li class="text-sm mb-4">
+						<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on Instagram">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_49_1285)"><path d="M10 1.80078C12.6719 1.80078 12.9883 1.8125 14.0391 1.85937C15.0156 1.90234 15.543 2.06641 15.8945 2.20313C16.3594 2.38281 16.6953 2.60156 17.043 2.94922C17.3945 3.30078 17.6094 3.63281 17.7891 4.09766C17.9258 4.44922 18.0898 4.98047 18.1328 5.95312C18.1797 7.00781 18.1914 7.32422 18.1914 9.99219C18.1914 12.6641 18.1797 12.9805 18.1328 14.0313C18.0898 15.0078 17.9258 15.5352 17.7891 15.8867C17.6094 16.3516 17.3906 16.6875 17.043 17.0352C16.6914 17.3867 16.3594 17.6016 15.8945 17.7813C15.543 17.918 15.0117 18.082 14.0391 18.125C12.9844 18.1719 12.668 18.1836 10 18.1836C7.32813 18.1836 7.01172 18.1719 5.96094 18.125C4.98438 18.082 4.45703 17.918 4.10547 17.7813C3.64063 17.6016 3.30469 17.3828 2.95703 17.0352C2.60547 16.6836 2.39063 16.3516 2.21094 15.8867C2.07422 15.5352 1.91016 15.0039 1.86719 14.0313C1.82031 12.9766 1.80859 12.6602 1.80859 9.99219C1.80859 7.32031 1.82031 7.00391 1.86719 5.95312C1.91016 4.97656 2.07422 4.44922 2.21094 4.09766C2.39063 3.63281 2.60938 3.29688 2.95703 2.94922C3.30859 2.59766 3.64063 2.38281 4.10547 2.20313C4.45703 2.06641 4.98828 1.90234 5.96094 1.85937C7.01172 1.8125 7.32813 1.80078 10 1.80078ZM10 0C7.28516 0 6.94531 0.0117187 5.87891 0.0585938C4.81641 0.105469 4.08594 0.277344 3.45313 0.523438C2.79297 0.78125 2.23438 1.12109 1.67969 1.67969C1.12109 2.23438 0.78125 2.79297 0.523438 3.44922C0.277344 4.08594 0.105469 4.8125 0.0585938 5.875C0.0117188 6.94531 0 7.28516 0 10C0 12.7148 0.0117188 13.0547 0.0585938 14.1211C0.105469 15.1836 0.277344 15.9141 0.523438 16.5469C0.78125 17.207 1.12109 17.7656 1.67969 18.3203C2.23438 18.875 2.79297 19.2188 3.44922 19.4727C4.08594 19.7188 4.8125 19.8906 5.875 19.9375C6.94141 19.9844 7.28125 19.9961 9.99609 19.9961C12.7109 19.9961 13.0508 19.9844 14.1172 19.9375C15.1797 19.8906 15.9102 19.7188 16.543 19.4727C17.1992 19.2188 17.7578 18.875 18.3125 18.3203C18.8672 17.7656 19.2109 17.207 19.4648 16.5508C19.7109 15.9141 19.8828 15.1875 19.9297 14.125C19.9766 13.0586 19.9883 12.7188 19.9883 10.0039C19.9883 7.28906 19.9766 6.94922 19.9297 5.88281C19.8828 4.82031 19.7109 4.08984 19.4648 3.45703C19.2188 2.79297 18.8789 2.23438 18.3203 1.67969C17.7656 1.125 17.207 0.78125 16.5508 0.527344C15.9141 0.28125 15.1875 0.109375 14.125 0.0625C13.0547 0.0117188 12.7148 0 10 0Z" fill="white"/><path d="M10 4.86328C7.16406 4.86328 4.86328 7.16406 4.86328 10C4.86328 12.8359 7.16406 15.1367 10 15.1367C12.8359 15.1367 15.1367 12.8359 15.1367 10C15.1367 7.16406 12.8359 4.86328 10 4.86328ZM10 13.332C8.16016 13.332 6.66797 11.8398 6.66797 10C6.66797 8.16016 8.16016 6.66797 10 6.66797C11.8398 6.66797 13.332 8.16016 13.332 10C13.332 11.8398 11.8398 13.332 10 13.332Z" fill="white"/><path d="M16.5391 4.66016C16.5391 5.32422 16 5.85938 15.3398 5.85938C14.6758 5.85938 14.1406 5.32031 14.1406 4.66016C14.1406 3.99609 14.6797 3.46094 15.3398 3.46094C16 3.46094 16.5391 4 16.5391 4.66016Z" fill="white"/></g><defs><clipPath id="clip0_49_1285"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
+						</a>
+					</li>
+					<li class="text-sm mb-4">
+						<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on X">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.2721 1.58643H18.0833L11.9416 8.606L19.1668 18.1581H13.5095L9.07853 12.3648L4.00845 18.1581H1.19552L7.76469 10.6498L0.833496 1.58643H6.63442L10.6397 6.8817L15.2721 1.58643ZM14.2854 16.4754H15.8432L5.78799 3.1807H4.11638L14.2854 16.4754Z" fill="white"/></svg>
+						</a>
+					</li>
+					<li class="text-sm mb-4">
+						<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on Youtube">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.8008 6C19.8008 6 19.6055 4.62109 19.0039 4.01563C18.2422 3.21875 17.3906 3.21484 17 3.16797C14.2031 2.96484 10.0039 2.96484 10.0039 2.96484H9.99609C9.99609 2.96484 5.79688 2.96484 3 3.16797C2.60938 3.21484 1.75781 3.21875 0.996094 4.01563C0.394531 4.62109 0.203125 6 0.203125 6C0.203125 6 0 7.62109 0 9.23828V10.7539C0 12.3711 0.199219 13.9922 0.199219 13.9922C0.199219 13.9922 0.394531 15.3711 0.992187 15.9766C1.75391 16.7734 2.75391 16.7461 3.19922 16.832C4.80078 16.9844 10 17.0313 10 17.0313C10 17.0313 14.2031 17.0234 17 16.8242C17.3906 16.7773 18.2422 16.7734 19.0039 15.9766C19.6055 15.3711 19.8008 13.9922 19.8008 13.9922C19.8008 13.9922 20 12.375 20 10.7539V9.23828C20 7.62109 19.8008 6 19.8008 6ZM7.93359 12.5938V6.97266L13.3359 9.79297L7.93359 12.5938Z" fill="white"/></svg>
+						</a>
+					</li>
+					<li class="text-sm mb-4">
+						<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on Tiktok">
+							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.2269 0H10.8563V13.6232C10.8563 15.2464 9.56 16.5797 7.94672 16.5797C6.33345 16.5797 5.03708 15.2464 5.03708 13.6232C5.03708 12.029 6.30465 10.7246 7.86031 10.6667V7.24639C4.4321 7.30433 1.6665 10.1159 1.6665 13.6232C1.6665 17.1594 4.48972 20 7.97554 20C11.4613 20 14.2845 17.1304 14.2845 13.6232V6.63767C15.5521 7.56522 17.1077 8.11594 18.7498 8.14495V4.72464C16.2147 4.63768 14.2269 2.55072 14.2269 0Z" fill="white"/></svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="p-5 flex flex-wrap sm:flex-nowrap justify-between copyright border-solid border-t border-gray-800">
+			<p class="text-center sm:text-left w-full grow sm:grow-0 font-light text-sm leading-none my-auto mb-5 sm:mb-0 pb-1">
+				&copy; 2024 VMX.com.ph, All Rights Reserved.
+			</p>
+			<ul class="w-full grow sm:grow-0 list-none flex gap-4 leading-none justify-evenly sm:justify-end pb-1">
+				<li>
+					<a href="terms-of-use.html" class="opacity-40 text-sm font-light transition-opacity hover:opacity-100 text-hover">
+						Terms of Use
+					</a>
+				</li>
+				<li>
+					<a href="privacy-policy.html" class="opacity-40 text-sm font-light transition-opacity hover:opacity-100 text-hover">
+						Privacy Policy
+					</a>
+				</li>
+				<li>
+					<a href="#" class="opacity-40 text-sm font-light transition-opacity hover:opacity-100 text-hover">
+						Sitemap
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- Footer end -->
+
+<!-- TODO: refactor -->
+<script src="js/main.js"></script>
+			</div>
+			<!-- modals & popups -->
+			<!-- Megamenu drawer start -->
+<div class="drawer-side megamenu z-40">
+	<label for="menu-drawer" aria-label="close sidebar" class="drawer-overlay" onclick="vmx.script.setBodyOverflow(false)"></label>
+	<div class="py-8 ps-8 pe-0 w-full sm:w-80 h-full bg-theme-dark text-white relative flex flex-col">
+		<!-- close toggle -->
+		<label 
+			for="menu-drawer" 
+			aria-label="close sidebar" 
+			class="drawer-close btn btn-square btn-ghost transition-opacity hover:opacity-100 opacity-60 absolute top-2 right-2" 
+			onclick="vmx.script.setBodyOverflow(false)"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		</label>
+		<!-- close toggle end -->
+		<a href="/" class="inline-block mt-2 mb-5">
+			<picture>
+				<source srcset="images/logo.webp 1x, images/logo_x2.webp 2x" type="image/webp">
+				<source srcset="images/logo.jpg 1x, images/logo_x2.jpg 2x" type="image/jpg">
+				<img 
+					alt="VMX" 
+					draggable="false" 
+					height="24" 
+					width="70" 
+					loading="lazy" 
+					src="images/logo.jpg"
+				/>
+			</picture>
+		</a>
+		<!-- main menu -->
+		<p class="text-lg mt-4 mb-8 pe-8"><strong class="font-medium">Browse by VMX Crushes</strong></p>
+		<div class="grow overflow-hidden mb-2 md:mb-8 pe-2">
+			<div class="swiper menuoverflow h-full">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide h-auto">
+						<ul class="px-0 list-none pe-6">
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Angeli Khang</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Azi Acosta</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Ayanna Misola</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Robb Guinto</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Yda Manzano</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Jenn Rosa</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Apple Dy</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Ataska</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Angela Morena</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Micaella Raz</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Stephanie Raz</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Denise Esteban</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Sheila Snow</a></li>
+							<li class="mb-4"><a href="#" class="text-hover transition-color font-light text-base">Angelica Hart</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-scrollbar"></div>
+			</div>
+		</div>
+		<a href="#" class="text-white text-sm text-hover transition-color py-8 flex md:hidden gap-2 items-center">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_316_97)"><path d="M17.5009 16.331C16.9086 16.5544 16.2743 16.6297 15.649 16.5507C14.9229 16.4406 14.235 16.1411 13.649 15.68C13.6136 15.6492 13.5725 15.6264 13.5282 15.6129C13.484 15.5994 13.4376 15.5955 13.3918 15.6015C13.3461 15.6076 13.302 15.6233 13.2624 15.6478C13.2227 15.6723 13.1883 15.7051 13.1612 15.744C13.1342 15.783 13.1151 15.8273 13.1051 15.8743C13.0951 15.9213 13.0945 15.9699 13.1033 16.0172C13.112 16.0644 13.13 16.1093 13.156 16.149C13.1821 16.1887 13.2156 16.2224 13.2546 16.248C13.9304 16.7799 14.7241 17.1248 15.5617 17.2506C16.1572 17.3288 16.7615 17.284 17.3404 17.1188C17.0536 18.792 17.1627 20.1038 17.6522 22.0016H4.86961C5.2905 20.1396 5.32012 18.7985 4.76049 17.166C5.28616 17.2931 5.82928 17.3218 6.36455 17.2506C7.20296 17.1271 7.99774 16.7838 8.67476 16.2529C8.71378 16.2273 8.74735 16.1936 8.77339 16.1539C8.79943 16.1142 8.81738 16.0693 8.82614 16.0221C8.8349 15.9748 8.83428 15.9262 8.82431 15.8792C8.81434 15.8322 8.79523 15.7879 8.76818 15.7489C8.74113 15.7099 8.7067 15.6772 8.66704 15.6527C8.62737 15.6282 8.58331 15.6124 8.53758 15.6064C8.49185 15.6004 8.44542 15.6043 8.40118 15.6178C8.35694 15.6313 8.31582 15.6541 8.28037 15.6849C7.6944 16.146 7.00654 16.4455 6.28037 16.5556C5.66008 16.6347 5.03067 16.5611 4.44249 16.3408L4.43469 16.3229C3.98947 16.0546 3.5957 15.7025 3.27335 15.2845C2.59431 14.3948 2.17009 13.3227 2.04966 12.192C1.94764 11.3427 1.99572 10.481 2.19151 9.6497C2.38997 8.86344 2.71922 8.11971 3.16423 7.45243L2.92261 2.54846C2.92091 2.51454 2.93056 2.48106 2.9499 2.45375C2.96923 2.42643 2.99706 2.40698 3.02861 2.39872C3.55862 2.26363 4.09331 2.16272 4.6202 2.01624C4.65616 2.00686 4.69422 2.01272 4.72605 2.03254C4.75789 2.05236 4.78092 2.08454 4.79011 2.12203C4.79159 2.1301 4.79159 2.13838 4.79011 2.14644L5.18294 7.47522C6.24919 7.98954 7.30453 8.84241 8.23828 9.8385C9.23814 10.8993 10.0861 12.1054 10.7558 13.4192H11.1596C11.8297 12.1057 12.6776 10.8997 13.6771 9.8385C14.6124 8.84404 15.6662 7.99117 16.7324 7.47685L17.0847 2.13668C17.0859 2.11683 17.0909 2.09743 17.0995 2.07966C17.108 2.0619 17.12 2.04614 17.1345 2.03334C17.1491 2.02055 17.166 2.01099 17.1843 2.00526C17.2025 1.99952 17.2217 1.99771 17.2406 1.99996C17.253 2.00224 17.265 2.00606 17.2765 2.01135C17.822 2.20635 18.3858 2.34003 18.9585 2.41012C18.9771 2.41194 18.9951 2.41762 19.0116 2.42683C19.0281 2.43604 19.0426 2.4486 19.0544 2.46376C19.0662 2.47892 19.0749 2.49639 19.0801 2.51512C19.0853 2.53386 19.0869 2.5535 19.0847 2.57288L18.7574 7.46383C18.9361 7.75883 19.1005 8.06303 19.25 8.37529C19.9842 9.92314 20.2336 11.4515 19.7426 13.1572C19.3684 14.4625 18.6794 15.6718 17.5009 16.331Z" fill="#FF6400"/></g><defs><clipPath id="clip0_316_97"><rect width="18" height="20" fill="white" transform="translate(2 2)"/></clipPath></defs></svg>
+			<span>VMX Crushes</span>
+		</a>
+		<!-- socials -->
+		<div class="mt-auto pe-8">
+			<p class="text-sm mb-5">
+				<strong class="font-medium">
+					Follow Us
+				</strong>
+			</p>
+			<ul class="list-none flex gap-8 justify-start">
+				<li class="text-sm">
+					<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on Meta">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_49_1283)"><path d="M10 0C4.4772 0 0 4.4772 0 10C0 14.6896 3.2288 18.6248 7.5844 19.7056V13.056H5.5224V10H7.5844V8.6832C7.5844 5.2796 9.1248 3.702 12.4664 3.702C13.1 3.702 14.1932 3.8264 14.6404 3.9504V6.7204C14.4044 6.6956 13.9944 6.6832 13.4852 6.6832C11.8456 6.6832 11.212 7.3044 11.212 8.9192V10H14.4784L13.9172 13.056H11.212V19.9268C16.1636 19.3288 20.0004 15.1128 20.0004 10C20 4.4772 15.5228 0 10 0Z" fill="white"/></g><defs><clipPath id="clip0_49_1283"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
+					</a>
+				</li>
+				<li class="text-sm">
+					<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on Instagram">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_49_1285)"><path d="M10 1.80078C12.6719 1.80078 12.9883 1.8125 14.0391 1.85937C15.0156 1.90234 15.543 2.06641 15.8945 2.20313C16.3594 2.38281 16.6953 2.60156 17.043 2.94922C17.3945 3.30078 17.6094 3.63281 17.7891 4.09766C17.9258 4.44922 18.0898 4.98047 18.1328 5.95312C18.1797 7.00781 18.1914 7.32422 18.1914 9.99219C18.1914 12.6641 18.1797 12.9805 18.1328 14.0313C18.0898 15.0078 17.9258 15.5352 17.7891 15.8867C17.6094 16.3516 17.3906 16.6875 17.043 17.0352C16.6914 17.3867 16.3594 17.6016 15.8945 17.7813C15.543 17.918 15.0117 18.082 14.0391 18.125C12.9844 18.1719 12.668 18.1836 10 18.1836C7.32813 18.1836 7.01172 18.1719 5.96094 18.125C4.98438 18.082 4.45703 17.918 4.10547 17.7813C3.64063 17.6016 3.30469 17.3828 2.95703 17.0352C2.60547 16.6836 2.39063 16.3516 2.21094 15.8867C2.07422 15.5352 1.91016 15.0039 1.86719 14.0313C1.82031 12.9766 1.80859 12.6602 1.80859 9.99219C1.80859 7.32031 1.82031 7.00391 1.86719 5.95312C1.91016 4.97656 2.07422 4.44922 2.21094 4.09766C2.39063 3.63281 2.60938 3.29688 2.95703 2.94922C3.30859 2.59766 3.64063 2.38281 4.10547 2.20313C4.45703 2.06641 4.98828 1.90234 5.96094 1.85937C7.01172 1.8125 7.32813 1.80078 10 1.80078ZM10 0C7.28516 0 6.94531 0.0117187 5.87891 0.0585938C4.81641 0.105469 4.08594 0.277344 3.45313 0.523438C2.79297 0.78125 2.23438 1.12109 1.67969 1.67969C1.12109 2.23438 0.78125 2.79297 0.523438 3.44922C0.277344 4.08594 0.105469 4.8125 0.0585938 5.875C0.0117188 6.94531 0 7.28516 0 10C0 12.7148 0.0117188 13.0547 0.0585938 14.1211C0.105469 15.1836 0.277344 15.9141 0.523438 16.5469C0.78125 17.207 1.12109 17.7656 1.67969 18.3203C2.23438 18.875 2.79297 19.2188 3.44922 19.4727C4.08594 19.7188 4.8125 19.8906 5.875 19.9375C6.94141 19.9844 7.28125 19.9961 9.99609 19.9961C12.7109 19.9961 13.0508 19.9844 14.1172 19.9375C15.1797 19.8906 15.9102 19.7188 16.543 19.4727C17.1992 19.2188 17.7578 18.875 18.3125 18.3203C18.8672 17.7656 19.2109 17.207 19.4648 16.5508C19.7109 15.9141 19.8828 15.1875 19.9297 14.125C19.9766 13.0586 19.9883 12.7188 19.9883 10.0039C19.9883 7.28906 19.9766 6.94922 19.9297 5.88281C19.8828 4.82031 19.7109 4.08984 19.4648 3.45703C19.2188 2.79297 18.8789 2.23438 18.3203 1.67969C17.7656 1.125 17.207 0.78125 16.5508 0.527344C15.9141 0.28125 15.1875 0.109375 14.125 0.0625C13.0547 0.0117188 12.7148 0 10 0Z" fill="white"/><path d="M10 4.86328C7.16406 4.86328 4.86328 7.16406 4.86328 10C4.86328 12.8359 7.16406 15.1367 10 15.1367C12.8359 15.1367 15.1367 12.8359 15.1367 10C15.1367 7.16406 12.8359 4.86328 10 4.86328ZM10 13.332C8.16016 13.332 6.66797 11.8398 6.66797 10C6.66797 8.16016 8.16016 6.66797 10 6.66797C11.8398 6.66797 13.332 8.16016 13.332 10C13.332 11.8398 11.8398 13.332 10 13.332Z" fill="white"/><path d="M16.5391 4.66016C16.5391 5.32422 16 5.85938 15.3398 5.85938C14.6758 5.85938 14.1406 5.32031 14.1406 4.66016C14.1406 3.99609 14.6797 3.46094 15.3398 3.46094C16 3.46094 16.5391 4 16.5391 4.66016Z" fill="white"/></g><defs><clipPath id="clip0_49_1285"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
+					</a>
+				</li>
+				<li class="text-sm">
+					<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on X">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.2721 1.58643H18.0833L11.9416 8.606L19.1668 18.1581H13.5095L9.07853 12.3648L4.00845 18.1581H1.19552L7.76469 10.6498L0.833496 1.58643H6.63442L10.6397 6.8817L15.2721 1.58643ZM14.2854 16.4754H15.8432L5.78799 3.1807H4.11638L14.2854 16.4754Z" fill="white"/></svg>
+					</a>
+				</li>
+				<li class="text-sm">
+					<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on Youtube">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.8008 6C19.8008 6 19.6055 4.62109 19.0039 4.01563C18.2422 3.21875 17.3906 3.21484 17 3.16797C14.2031 2.96484 10.0039 2.96484 10.0039 2.96484H9.99609C9.99609 2.96484 5.79688 2.96484 3 3.16797C2.60938 3.21484 1.75781 3.21875 0.996094 4.01563C0.394531 4.62109 0.203125 6 0.203125 6C0.203125 6 0 7.62109 0 9.23828V10.7539C0 12.3711 0.199219 13.9922 0.199219 13.9922C0.199219 13.9922 0.394531 15.3711 0.992187 15.9766C1.75391 16.7734 2.75391 16.7461 3.19922 16.832C4.80078 16.9844 10 17.0313 10 17.0313C10 17.0313 14.2031 17.0234 17 16.8242C17.3906 16.7773 18.2422 16.7734 19.0039 15.9766C19.6055 15.3711 19.8008 13.9922 19.8008 13.9922C19.8008 13.9922 20 12.375 20 10.7539V9.23828C20 7.62109 19.8008 6 19.8008 6ZM7.93359 12.5938V6.97266L13.3359 9.79297L7.93359 12.5938Z" fill="white"/></svg>
+					</a>
+				</li>
+				<li class="text-sm">
+					<a href="#" class="transition-opacity hover:opacity-70" title="Follow us on Tiktok">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.2269 0H10.8563V13.6232C10.8563 15.2464 9.56 16.5797 7.94672 16.5797C6.33345 16.5797 5.03708 15.2464 5.03708 13.6232C5.03708 12.029 6.30465 10.7246 7.86031 10.6667V7.24639C4.4321 7.30433 1.6665 10.1159 1.6665 13.6232C1.6665 17.1594 4.48972 20 7.97554 20C11.4613 20 14.2845 17.1304 14.2845 13.6232V6.63767C15.5521 7.56522 17.1077 8.11594 18.7498 8.14495V4.72464C16.2147 4.63768 14.2269 2.55072 14.2269 0Z" fill="white"/></svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- Megamenu drawer end -->
+
+<script>
+	var swiper = new Swiper(".menuoverflow", {
+		direction: "vertical",
+		slidesPerView: "auto",
+		freeMode: true,
+		scrollbar: {
+			el: ".menuoverflow .swiper-scrollbar",
+		},
+		mousewheel: true,
+	});
+</script>
+			<!-- Search drawer start -->
+<div class="drawer-side search z-40">
+	<label for="search-drawer" aria-label="close sidebar" class="drawer-overlay" onclick="vmx.script.setBodyOverflow(false)"></label>
+	<div class="pb-4 ps-4 pe-0 w-full sm:w-[520px]  h-full bg-theme-dark text-white relative flex flex-col">
+		<!-- close toggle -->
+		<label 
+			for="search-drawer" 
+			aria-label="close sidebar" 
+			class="drawer-close btn btn-square btn-ghost transition-opacity hover:opacity-100 opacity-60 ms-auto" 
+			onclick="vmx.script.setBodyOverflow(false)"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+		</label>
+		<!-- close toggle end -->
+		<!-- Search bar -->
+		<div class="flex gap-5 pe-4 items-center text-white">
+			<a href="/">
+				<picture>
+					<source srcset="images/logo.webp 1x, images/logo_x2.webp 2x" type="image/webp">
+					<source srcset="images/logo.jpg 1x, images/logo_x2.jpg 2x" type="image/jpg">
+					<img 
+						alt="VMX" 
+						draggable="false" 
+						height="24" 
+						width="70" 
+						loading="lazy" 
+						src="images/logo.jpg"
+					/>
+				</picture>
+			</a>
+			<div class="flex-grow bg-theme-gray rounded-lg">
+				<label class="input input-sm input-bordered flex items-center gap-2 bg-theme-gray border-none rounded-lg pe-0">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9C2 5.13401 5.13401 2 9 2C12.866 2 16 5.13401 16 9ZM14.6177 16.0319C13.078 17.2635 11.125 18 9 18C4.02944 18 0 13.9706 0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9C18 11.125 17.2635 13.078 16.0319 14.6177L19.7071 18.2929C20.0976 18.6834 20.0976 19.3166 19.7071 19.7071C19.3166 20.0976 18.6834 20.0976 18.2929 19.7071L14.6177 16.0319Z" fill="white"/></svg>
+					<input 
+						type="search" 
+						class="ps-0 input input-bordered input-sm w-full max-w-xs bg-theme-gray border-none [&::-webkit-search-cancel-button]:hidden" 
+						placeholder="Search"
+						value="A"
+					/>
+				</label>
+			</div>
+		</div>
+		<!-- Search bar end -->
+		<!-- Auto Suggest -->
+		<div class="grow overflow-hidden py-5 my-4 rounded-lg">
+			<div class="swiper searchoverflow h-full">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide h-auto">
+						<div class="flex flex-col gap-2 pe-4">
+							<!-- each result -->
+							<a href="#" class="bg-theme-gray hover:opacity-70 transition-opacity p-4 pe-5 flex w-full items-center gap-4 rounded-lg">
+								<div class="img">
+									<img src="images/search1.jpg" class="rounded-lg" width="106" height="60" draggable="false" loading="lazy">
+								</div>
+								<div class="title grow">
+									<span class="text-sm font-light text-white block mb-1">
+										Ada Hermosa
+									</span>
+								</div>
+								<div class="ms-auto">
+									<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_578_751)"><path d="M1 6H19" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 0.75L19.25 6L14 11.25" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_578_751"><rect width="20" height="12" fill="white"/></clipPath></defs></svg>
+								</div>
+							</a>
+							<!-- each result -->
+							<a href="#" class="bg-theme-gray hover:opacity-70 transition-opacity p-4 pe-5 flex w-full items-center gap-4 rounded-lg">
+								<div class="img">
+									<img src="images/search2.jpg" class="rounded-lg" width="106" height="60" draggable="false" loading="lazy">
+								</div>
+								<div class="title grow">
+									<span class="text-sm font-light text-white block mb-1">
+										Aiko Garcia
+									</span>
+								</div>
+								<div class="ms-auto">
+									<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_578_751)"><path d="M1 6H19" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 0.75L19.25 6L14 11.25" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_578_751"><rect width="20" height="12" fill="white"/></clipPath></defs></svg>
+								</div>
+							</a>
+							<!-- each result -->
+							<a href="#" class="bg-theme-gray hover:opacity-70 transition-opacity p-4 pe-5 flex w-full items-center gap-4 rounded-lg">
+								<div class="img">
+									<img src="images/search3.jpg" class="rounded-lg" width="106" height="60" draggable="false" loading="lazy">
+								</div>
+								<div class="title grow">
+									<span class="text-sm font-light text-white block mb-1">
+										Aila Cruz
+									</span>
+								</div>
+								<div class="ms-auto">
+									<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_578_751)"><path d="M1 6H19" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 0.75L19.25 6L14 11.25" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_578_751"><rect width="20" height="12" fill="white"/></clipPath></defs></svg>
+								</div>
+							</a>
+							<!-- each result -->
+							<a href="#" class="bg-theme-gray hover:opacity-70 transition-opacity p-4 pe-5 flex w-full items-center gap-4 rounded-lg">
+								<div class="img">
+									<img src="images/search4.jpg" class="rounded-lg" width="106" height="60" draggable="false" loading="lazy">
+								</div>
+								<div class="title grow">
+									<span class="text-sm font-light text-white block mb-1">
+										Amabella De Leon
+									</span>
+								</div>
+								<div class="ms-auto">
+									<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_578_751)"><path d="M1 6H19" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 0.75L19.25 6L14 11.25" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_578_751"><rect width="20" height="12" fill="white"/></clipPath></defs></svg>
+								</div>
+							</a>
+							<!-- each result -->
+							<a href="#" class="bg-theme-gray hover:opacity-70 transition-opacity p-4 pe-5 flex w-full items-center gap-4 rounded-lg">
+								<div class="img">
+									<img src="images/search5.jpg" class="rounded-lg" width="106" height="60" draggable="false" loading="lazy">
+								</div>
+								<div class="title grow">
+									<span class="text-sm font-light text-white block mb-1">
+										Angela Morena
+									</span>
+								</div>
+								<div class="ms-auto">
+									<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_578_751)"><path d="M1 6H19" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 0.75L19.25 6L14 11.25" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_578_751"><rect width="20" height="12" fill="white"/></clipPath></defs></svg>
+								</div>
+							</a>
+							<!-- each result -->
+							<a href="#" class="bg-theme-gray hover:opacity-70 transition-opacity p-4 pe-5 flex w-full items-center gap-4 rounded-lg">
+								<div class="img">
+									<img src="images/search6.jpg" class="rounded-lg" width="106" height="60" draggable="false" loading="lazy">
+								</div>
+								<div class="title grow">
+									<span class="text-sm font-light text-white block mb-1">
+										Angeli Khang
+									</span>
+								</div>
+								<div class="ms-auto">
+									<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_578_751)"><path d="M1 6H19" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 0.75L19.25 6L14 11.25" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_578_751"><rect width="20" height="12" fill="white"/></clipPath></defs></svg>
+								</div>
+							</a>
+							<!-- each result -->
+							<a href="#" class="bg-theme-gray hover:opacity-70 transition-opacity p-4 pe-5 flex w-full items-center gap-4 rounded-lg">
+								<div class="img">
+									<img src="images/search7.jpg" class="rounded-lg" width="106" height="60" draggable="false" loading="lazy">
+								</div>
+								<div class="title grow">
+									<span class="text-sm font-light text-white block mb-1">
+										Angelica Churva
+									</span>
+								</div>
+								<div class="ms-auto">
+									<svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_578_751)"><path d="M1 6H19" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 0.75L19.25 6L14 11.25" stroke="#FF6400" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_578_751"><rect width="20" height="12" fill="white"/></clipPath></defs></svg>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-scrollbar"></div>
+			</div>
+		</div>
+		<div class="mt-auto pe-4">
+			<button class="btn btn-primary w-full">SEARCH</button>
+		</div>
+	</div>
+</div>
+<!-- Search drawer end -->
+
+<script>
+	var swiper = new Swiper(".searchoverflow", {
+		direction: "vertical",
+		slidesPerView: "auto",
+		freeMode: true,
+		scrollbar: {
+			el: ".searchoverflow .swiper-scrollbar",
+		},
+		mousewheel: true,
+	});
+</script>
+			<!-- Cart drawer start -->
+<div class="drawer-side cart z-40">
+	<label for="cart-drawer" aria-label="close sidebar" class="drawer-overlay" onclick="vmx.script.setBodyOverflow(false)"></label> 
+	<div class="pb-4 ps-4 pe-0 w-full sm:w-[520px]  h-full bg-theme-dark text-white relative flex flex-col">
+		<!-- close toggle -->
+		<label 
+			for="cart-drawer" 
+			aria-label="close sidebar" 
+			class="drawer-close btn btn-square btn-ghost transition-opacity hover:opacity-100 opacity-60 ms-auto" 
+			onclick="vmx.script.setBodyOverflow(false)"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+		</label>
+		<!-- close toggle end -->
+		<!-- Cart heading -->
+		<div class="flex gap-5 pe-4 items-center text-white">
+			<a href="/">
+				<picture>
+					<source srcset="images/logo.webp 1x, images/logo_x2.webp 2x" type="image/webp">
+					<source srcset="images/logo.jpg 1x, images/logo_x2.jpg 2x" type="image/jpg">
+					<img 
+						alt="VMX" 
+						draggable="false" 
+						height="24" 
+						width="70" 
+						loading="lazy" 
+						src="images/logo.jpg"
+					/>
+				</picture>
+			</a>
+			<div class="flex-grow rounded-lg">
+				<p class="text-sm text-center ps-8 pe-20 font-light">Your Cart (2)</p>
+			</div>
+		</div>
+		<!-- Cart heading end -->
+		<!-- Line items -->
+		<div class="grow overflow-hidden py-5 my-4 rounded-lg">
+			<div class="swiper cartoverflow h-full">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide h-auto">
+						<div class="flex flex-col gap-2 pe-4">
+							<!-- each item -->
+							<div class="bg-theme-gray hover:opacity-70 transition-opacity p-4 flex w-full items-center gap-4 rounded-lg">
+								<div class="flex flex-col bg-theme-dark px-3 py-1 rounded">
+									<button class="text-center opacity-60 hover:opacity-100 transition-all">+</button>
+									<span class="font-light text-sm text-center">1</span>
+									<button class="text-center opacity-60 hover:opacity-100 transition-all">-</button>
+								</div>
+								<div class="img">
+									<img src="images/profile1.jpg" class="rounded-lg" width="60" height="60" draggable="false" loading="lazy">
+								</div>
+								<div class="title grow">
+									<span class="text-sm font-light text-white block mb-1">
+										Urban Seductress
+									</span>
+									<span class="text-sm text-white block">
+										₱69
+									</span>
+								</div>
+								<div class="ml-auto">
+									<button class="opacity-60 hover:opacity-100 transition-all">
+										<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+									</button>
+								</div>
+							</div>
+							<!-- each item -->
+							<div class="bg-theme-gray hover:opacity-70 transition-opacity p-4 flex w-full items-center gap-4 rounded-lg">
+								<div class="flex flex-col bg-theme-dark px-3 py-1 rounded">
+									<button class="text-center opacity-60 hover:opacity-100 transition-all">+</button>
+									<span class="font-light text-sm text-center">1</span>
+									<button class="text-center opacity-60 hover:opacity-100 transition-all">-</button>
+								</div>
+								<div class="img">
+									<img src="images/profile2.jpg" class="rounded-lg" width="60" height="60" draggable="false" loading="lazy">
+								</div>
+								<div class="title grow">
+									<span class="text-sm font-light text-white block mb-1">
+										100% Hypebeast Ataska
+									</span>
+									<span class="text-sm text-white block">
+										₱29
+									</span>
+								</div>
+								<div class="ml-auto">
+									<button class="opacity-60 hover:opacity-100 transition-all">
+										<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-scrollbar"></div>
+			</div>
+		</div>
+		<div class="mt-auto pe-4 border-t border-solid border-gray-600 pt-8">
+			<div class="mb-8 flex justify-between">
+				<span class="font-light text-white text-sm">
+					Cart total
+				</span>
+				<span class="text-white text-sm">
+					₱98
+				</span>
+			</div>
+			<button class="btn btn-primary w-full">PROCEED TO CHECKOUT</button>
+		</div>
+	</div>
+</div>
+<!-- Cart drawer end -->
+<script>
+	var swiper = new Swiper(".cartoverflow", {
+		direction: "vertical",
+		slidesPerView: "auto",
+		freeMode: true,
+		scrollbar: {
+			el: ".cartoverflow .swiper-scrollbar",
+		},
+		mousewheel: true,
+	});
+</script>
+			
+			
+		</div>
+	</body>
+</html>
